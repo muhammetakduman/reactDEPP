@@ -3,12 +3,16 @@
     {
       "id": "1",
       "name": "mami25",
-      "password": "erzurum12"
-    },
+      "password": "erzurum12",
+      "postId": 7
+    }
+  ],
+  "posts": [
     {
-      "id": "2",
-      "name": "hilal61",
-      "password": "of61"
+      "userId": 1,
+      "postId": 7,
+      "title": "ReactJS ile Backend API'ye Erişmek",
+      "body": "asdpknfgpfdkgnsdfpkgnsdpgknsdgpkfnsdgkndkgnsdkngkgndkgndskg"
     }
   ]
 }

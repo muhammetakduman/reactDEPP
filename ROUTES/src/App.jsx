@@ -8,6 +8,8 @@ import Contact from './pages/Contact';
 import NotFoundPage from './pages/NotFoundPage';
 import Products from './pages/Products';
 import Header from './components/Header';
+import AboutCompany from './pages/AboutCompany';
+import AboutEmployee from './pages/AboutEmployee';
 
 
 function App() {
@@ -17,7 +19,12 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+
+        <Route path='/about' element={<About />}>
+          <Route path='company' element={<AboutCompany />} />
+          <Route path='employee' element={<AboutEmployee />} />
+        </Route>
+
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFoundPage />} />
         <Route path='/products' element={<Products />} />

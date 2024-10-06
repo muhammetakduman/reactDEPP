@@ -10,6 +10,7 @@ import Products from './pages/Products';
 import Header from './components/Header';
 import AboutCompany from './pages/AboutCompany';
 import AboutEmployee from './pages/AboutEmployee';
+import ProductDetails from './pages/ProductDetails';
 
 
 function App() {
@@ -24,10 +25,11 @@ function App() {
           <Route path='company' element={<AboutCompany />} />
           <Route path='employee' element={<AboutEmployee />} />
         </Route>
-
+        <Route path='/products' element={<Products />} />
+        <Route path='/product-details/:id' element={<ProductDetails />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFoundPage />} />
-        <Route path='/products' element={<Products />} />
+
       </Routes>
     </div>
   )

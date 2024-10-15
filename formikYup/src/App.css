@@ -34,3 +34,8 @@ button {
   border: none;
   border-radius: 5px;
 }
+
+.input-error {
+  font-size: 14px;
+  color: red;
+}

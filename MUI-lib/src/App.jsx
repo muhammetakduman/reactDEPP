@@ -9,6 +9,9 @@ import MUIAppBar from './Components/MUIAppBar'
 import MUIImageList from './Components/MUIImageList'
 import MUIDrawer from './Components/MUIDrawer'
 import MUIDıalog from './Components/MUIDıalog'
+import MUISnackbar from './Components/MUISnackbar'
+import MUIProgress from './Components/MUIProgress'
+import MUITable from './Components/MUITable'
 function App() {
   return (
     <div>
@@ -21,7 +24,11 @@ function App() {
       {/* <MUIAppBar /> */}
       {/* <MUIImageList /> */}
       {/* <MUIDrawer /> */}
-      <MUIDıalog />
+      {/* <MUIDıalog /> */}
+      {/* <MUISnackbar /> */}
+      {/* <MUIProgress /> */}
+      <MUITable />
+
     </div>
   )
 }

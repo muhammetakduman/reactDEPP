@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: gold;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar-left {
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: 250;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right {
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: 250;
+    margin-right: 20px;
+    cursor: pointer;
+}
